@@ -2,7 +2,7 @@
 
 :root {
     --cor__de__fundo: #000000;
-    --cor__secundaria:   #146C94;
+    --cor__secundaria:   #0b9cdf;
     --cor__principal: #F6F1F1;
     --hover__color: #272727;
     --fonte__link:   #000000;
@@ -33,7 +33,7 @@ body {
 .header__menu__link {
     font-family: var(--fonte__secundaria);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor__secundaria);
     text-decoration: none;
 }
@@ -43,10 +43,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .container__secundario {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -54,7 +55,7 @@ body {
 }
 
 .titulo__principal {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte__principal);
 }
 
@@ -63,7 +64,7 @@ body {
 }
 
 .subtitulo__principal {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte__secundaria) ;
 }
 
@@ -78,7 +79,7 @@ body {
 .subtitulo__secundario {
     font-family: var(--fonte__principal);
     font-weight: 400;    
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 
@@ -88,10 +89,10 @@ body {
     justify-content: center;
     gap: 16px;
     color: var(--cor__principal);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 21.5px 0;
     font-weight: 600;
     border-radius: 8px;
@@ -105,6 +106,10 @@ body {
     transition: 0.8s;
 }
 
+.container__imagem {
+    width: 50%;
+}
+
 .footer {
     color: var(--fonte__link);
     background-color: var(--cor__secundaria);
@@ -112,5 +117,22 @@ body {
     text-align: center;
     font-family: var(--fonte__secundaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+
+    .header__menu {
+        padding: 10%;
+        justify-content: center;
+     }
+
+    .container__principal {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .container__secundario {
+        width: auto;
+    }
 }
