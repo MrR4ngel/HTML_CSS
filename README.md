@@ -10,7 +10,7 @@ Potifólio
     <a href="https://github.com/MrR4ngel" target="_blank">
       <img src="https://img.shields.io/static/v1?label=Author&message=Mateus Rangel&color=1207CC&style=for-the-badge" target="_blank" alt="Mateus Rangel">
     </a>
-    <img src="https://img.shields.io/github/languages/count/MrR4ngel/modeloPortifolio?color=DAA1207CC524&style=for-the-badge" alt="Linguagens">
+    <img src="https://img.shields.io/github/languages/count/MrR4ngel/modeloPortifolio?color=1207CC&style=for-the-badge" alt="Linguagens">
 </div>
 
 ###
